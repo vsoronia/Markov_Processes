@@ -46,17 +46,6 @@ In the context of Markov processes, although the primary structure is a graph, t
 
 States forming cycles are grouped into recurrent classes. These classes are sets of states where each state can be revisited from any other state within the same class. States not involved in any cycle are identified as transient states.
 
-## Practical Applications of Markov Analysis
-
-Markov chains and processes are widely used in various fields due to their ability to model random systems with memoryless properties. Some practical applications include:
-
-1. **Finance**: Modeling stock prices and market behaviors to predict future trends.
-2. **Queueing Theory**: Analyzing customer service processes in banks, supermarkets, and call centers to optimize service efficiency.
-3. **Natural Language Processing**: Implementing text prediction and autocomplete features in search engines and messaging apps.
-4. **Genetics**: Studying the sequence of genes and their mutations over generations.
-5. **Weather Forecasting**: Predicting weather patterns based on current conditions.
-6. **Internet Page Ranking**: Google's PageRank algorithm uses Markov chains to rank web pages in search results.
-
 ## Results
 
 For the given 7x7 transition matrix, the results are:
@@ -68,10 +57,23 @@ For the given 7x7 transition matrix, the results are:
   - Transient states: ['0', '2', '3', '4', '6']
   - Recurrent states: ['1', '5']
 
+  ## Transition Graph
+
+![Transition Matrix Graph](image.png)
+
+## Practical Applications of Markov Analysis
+
+Markov chains and processes are widely used in various fields due to their ability to model random systems with memoryless properties. Some practical applications include:
+
+1. **Finance**: Modeling stock prices and market behaviors to predict future trends.
+2. **Queueing Theory**: Analyzing customer service processes in banks, supermarkets, and call centers to optimize service efficiency.
+3. **Natural Language Processing**: Implementing text prediction and autocomplete features in search engines and messaging apps.
+4. **Genetics**: Studying the sequence of genes and their mutations over generations.
+5. **Weather Forecasting**: Predicting weather patterns based on current conditions.
+6. **Internet Page Ranking**: Google's PageRank algorithm uses Markov chains to rank web pages in search results.
+
+
+
 ## Conclusion
 
 This project demonstrates the application of Markov processes in identifying state types and recurrent classes. The code successfully identifies recurrent and transient states, validating the transition matrix and the recurrent classes within a Markov chain. Understanding these concepts and their applications provides a strong foundation for analyzing and interpreting systems governed by stochastic processes.
-
-## Image
-
-![Transition Matrix Graph](image1.png)
