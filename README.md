@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project is part of the Computational Mathematics II course in the Master's Program. The aim is to study Markov processes, specifically focusing on identifying the types of states and recurrent classes within a Markov chain using Python.
+This project, originating from my Master's course in Computational Mathematics II, has been significantly expanded. I developed a comprehensive analysis from scratch, using graph theory and algorithms to analyze Markov chains of any size. By implementing Depth-First Search (DFS) algorithms, the project identifies recurrent and transient states within any transition matrix, providing a robust tool for understanding the long-term behavior of stochastic systems.
 
 ## Markov Processes
 
